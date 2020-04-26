@@ -11,9 +11,11 @@ body{
     margin-right: 2%;
     background: white;}
 
-section{padding-top: 65px;}
+section{padding-top: 40px;}
 
-div{padding: 0.2%;}
+div{padding: 0.1%;}
+
+#menumobile{color:white;}
 
 nav ul li{float:left;
         position: relative;}
@@ -21,36 +23,37 @@ nav ul li{float:left;
 nav ul li a{
     display: inline-block;
     text-decoration: none;
-    color:black;
     padding: 10px 5%;
     text-align: center;}
 
-nav ul li ul{display: none;
-    background-color: rgba(255,201,14,0.92);
-    position: absolute;}
+nav ul li a{color:white;}
 
 nav li:hover ul{display: block;}
 
+/*submenu*/
+
+nav ul li ul{display: none;
+    background-color: rgba(48, 3, 248, 0.748);
+    position: absolute;}
+
 nav ul li ul li a{width: 120px;
-margin-top: -1px;}
+                    margin-top: -1px;
+                    color:white;}
 
-nav ul li a:hover{background-color:beige;
-                  text-decoration: none;}
-
-nav ul li ul li a:hover{background-color:beige;
+nav ul li ul li a:hover{color:white;
                         text-decoration: none;}
 
-h1{font-size: 2.5em;}
+h1{font-size: 2.3em;}
 
-h2{font-size: 2em;}
+h2{font-size: 2.1em;}
 
-h3{font-size: 0.7em;}
+h3{font-size: 1.9em;}
 
-h4{font-size: 0.4em;}
+h4{font-size: 1.7em;}
 
-h5{font-size: 0.2em;}
+h5{font-size: 1.5em;}
 
-h6{font-size: 0.1em;}
+h6{font-size: 1.3em;}
 
 p{text-align: justify;
   line-height:2em;
@@ -333,4 +336,27 @@ text-align: center;}
 
 .textoLink{
     opacity: 200%;
+}
+
+.links i{
+    text-decoration: none;
+    color:blue;
+    font-size: 80px;
+    align-items: center;
+}
+
+.links p{
+    text-decoration: none;
+    color:blue;
+    text-align: center;
+}
+
+.links i:hover{
+    text-decoration: none;
+    background-color: grey;
+}
+
+.links p:hover{
+    text-decoration: none;
+    background-color: grey;
 }

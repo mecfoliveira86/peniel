@@ -154,17 +154,12 @@
         $assunto="Pedido de Contato - Site Piece Consultoria";
         $mensagem=$_POST["mensagem"];
         $materiais="";
-                
-        if(isset($_POST['lista'])){
-            $materiais="Contato deseja receber Materiais!";}else{
-            $materiais="Contato NÃO deseja receber Materiais!";
-        }
 
         $headers = "MIME-Version: 1.1".$quebra_linha;
         $headers .= "Content-type: text/html; charset=utf-8".$quebra_linha;
         $headers .= "From: ".$e_sender;
                 
-        mail($e_sender, $assunto, "<b>Contato Piece Consultoria</b>"."<br>"."Nome: ".$name."<br>"."E-Mail: ".$email."<br>"."Telefone: ".$phone."<br>"."Mensagem: ".$mensagem."<br>"."Receber materiais: ".$materiais."<br>", $headers);
+        mail($e_sender, $assunto, "<b>Contato Piece Consultoria</b>"."<br>"."Nome: ".$name."<br>"."E-Mail: ".$email."<br>"."Telefone: ".$phone."<br>"."Mensagem: ".$mensagem."<br>"."Receber materiais: ", $headers);
         
         ?>
         

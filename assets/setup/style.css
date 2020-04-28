@@ -148,6 +148,7 @@ a{text-decoration:none;} /* Links sem efeitos */
 
     .allteam{background-color: rgb(0,140,255);
             color:white;}
+
     .detalhe{background-color: rgb(104,168,222);
             color:white;}
     
@@ -184,7 +185,8 @@ a{text-decoration:none;} /* Links sem efeitos */
         align-items: center;
         background-color:rgb(0,100,255);
         color:white;
-    text-decoration: none;}
+        text-decoration: none;
+        margin:15px;}
     
     .test a{text-decoration: none;
     color: white;
@@ -374,4 +376,10 @@ text-align: center;}
     text-decoration: none;
     background-color: white;
     color:blue;
+}
+
+.div{
+    height: 30px;
+    width: 100%;
+    background-color: white;
 }

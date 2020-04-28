@@ -205,10 +205,6 @@ a{text-decoration:none;} /* Links sem efeitos */
     .cargo{font-size:10pt;
         font-weight: bolder;}
 
-    .testind{border-top:1px black;
-            padding: 2px;
-            background-color:cornsilk;}
-
     .vespace{background-color: white;
         height: 5px;
             padding: 2px;

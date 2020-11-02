@@ -6,15 +6,12 @@ main{
 
 body{
     width: 96%;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left:1%;
     background-color: #fffffe;}
 
 section{padding-top: 45px;}
 
-div{padding: 0.1%;}
-
-#menumobile{color:white;}
+div{padding: 10px;}
 
 nav ul li{float:left;
         position: relative;}
@@ -25,28 +22,31 @@ nav ul li a{
     padding: 10px 5%;
     text-align: center;}
 
-nav ul li a{color:white;}
+.meumenu {
+    color:white;
+}
+
+.fundo{
+    margin-left:5%;
+    padding:0;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.06);
+}
+
+.fundo a h3{
+    z-index: 20;
+    color: black;
+}
 
 nav li:hover ul{display: block;}
 
-/*submenu*/
+h1{font-size: 3em;}
 
-nav ul li ul{display: none;
-    background-color: rgba(48, 3, 248, 0.748);
-    position: absolute;}
+h2{font-size: 2.5em;}
 
-nav ul li ul li a{width: 120px;
-                    margin-top: -1px;
-                    color:white;}
-
-nav ul li ul li a:hover{color:white;
-                        text-decoration: none;}
-
-h1{font-size: 2.3em;}
-
-h2{font-size: 2.1em;}
-
-h3{font-size: 1.9em;}
+h3{font-size: 2em;}
 
 h4{font-size: 1.7em;}
 
@@ -58,169 +58,175 @@ p{text-align: justify;
   line-height:2em;
   text-indent:0em;}
 
+.ligacao a:hover{
+    color:blue;
+    background-color: white;
+}
+
 footer{
     float:left;
+    width: 96%;
+    margin-left: 3%;
     align-content: center;
-    margin: 0 auto !important;
     float: none !important;
     background-color: rgb(35,144,194);
     color:white;
     margin-bottom: 5%;
     clear: both;}
 
-    footer p{color:white;}
+footer p{color:white;}
 
-    .center{
-        align-content:center;
-        margin-top: 0%;
-        align-items: center;
-        text-align: center;
-        flex-direction: row;}
+footer a{color:white;}
 
-    .center img{margin-top: 0%;}
+footer a:hover{
+    color:blue;
+    background-color: white;
+    font-weight: bold;}
 
-    .img-left{
-        float:left;
-        width:44%;
-        vertical-align: middle;}
+.formulario{
+    align-items: center;
+    background-color:rgb(35,144,194);
+    color:white;}
 
-    .text-right{
-        float:right;
-        width:50%;
-        vertical-align:middle;}
+    .formulario h2{font-size: 30pt;}
 
-    .img-right{float:right;
-                width:44%;}
+.center{
+    align-content:center;
+    margin-top: 0%;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;}
 
-    .text-left{float:left;
-                width:50%;}
+.center img{margin-top: 0%;}
+
+.img-left{
+    float:left;
+    width:44%;
+    vertical-align: middle;}
+
+.text-right{
+    float:right;
+    width:50%;
+    vertical-align:middle;}
+
+.img-right{float:right;
+            width:44%;}
+
+.text-left{float:left;
+            width:50%;}
 
 small {text-align: center}
             
 a{text-decoration:none;} /* Links sem efeitos */
 
-    /* Carecteristicas da div. */
-    .contenthover{
-        border: 0px solid grey;
-        padding: 0;
-        align-items: center;
-        width: 50%;
-        height: 100%;}
-    /* Carecteristicas de tudo que esta dentro da Div e com Link */
-    .contenthover ul li a{
-        display:block;
-        position:relative;
-        font-size:12px;
-        margin:0 auto;
-        padding: 10px;
-        float:left;}
-    /* Efeitos do texto */
-    .contenthover ul li a span{
-        display:block;
-        padding:10px;
-        color:white;
-        position:absolute;
-        bottom:0;
-        left:0;
-        -webkit-border-radius:0;
-        -moz-border-radius:0;
-        border-radius:0;
-        opacity:0;
-        -moz-opacity:0;
-        filter:alpha(opacity=0);}
+/* Carecteristicas da div. */
+.contenthover{
+    border: 0px solid grey;
+    padding: 0;
+    align-items: center;
+    width: 50%;
+    height: 100%;}
+/* Carecteristicas de tudo que esta dentro da Div e com Link */
+.contenthover ul li a{
+    display:block;
+    position:relative;
+    font-size:12px;
+    margin:0 auto;
+    padding: 10px;
+    float:left;}
+/* Efeitos do texto */
+.contenthover ul li a span{
+    display:block;
+    padding:10px;
+    color:white;
+    position:absolute;
+    bottom:0;
+    left:0;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;
+    opacity:0;
+    -moz-opacity:0;
+    filter:alpha(opacity=0);}
 
-    /* Efeitos do texto quando o mouse estive em cima da Imagem */ 
-    .contenthover ul li:hover span{
-        border: 10px solid f00;
-        background-color:black;
-        opacity:0.6;
-        -moz-opacity:0.6;
-        filter:alpha(opacity=60);}
+/* Efeitos do texto quando o mouse estive em cima da Imagem */ 
+.contenthover ul li:hover span{
+    border: 10px solid f00;
+    background-color:black;
+    opacity:0.6;
+    -moz-opacity:0.6;
+    filter:alpha(opacity=60);}
 
-    .contenthover ul li a img{ /* Tamanho da imagem na DIV */
-        width:60%;
-        height:60%;}
+.contenthover ul li a img{ /* Tamanho da imagem na DIV */
+    width:60%;
+    height:60%;}
 
-    .contenthover ul li a span{ /* Espaço da mensagem que ira aparecer */
-        width:80%;
-        padding-bottom: 30px;
-        padding-left: 10px;}
+.contenthover ul li a span{ /* Espaço da mensagem que ira aparecer */
+    width:80%;
+    padding-bottom: 30px;
+    padding-left: 10px;}
 
-    .allteam{background-color: rgb(0,140,255);
-            color:white;}
+.allteam{background-color: rgb(0,140,255);
+        color:white;}
 
-    .detalhe{background-color: rgb(104,168,222);
-            color:white;}
-    
-    .detalhe a{color:white;}
+.detalhe{background-color: rgb(104,168,222);
+        color:white;}
 
-    .time{
-        background: rgb(104,168,220);
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        vertical-align: middle;}
+.detalhe a{color:white;}
 
-    .time a img{
-        width:75%;
-        vertical-align: middle;
-        padding-top: 2%;
-        padding-bottom: 2%;}
+#team{
+    display: flex;
+}
 
-    .time a p{
-        font-weight: bold;
+.time{
+    background: rgb(104,168,220);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;}
+
+.time a img{
+    width:75%;
+    vertical-align: middle;}
+
+.time a p{
+    font-weight: bold;
+    align-content: center;
+    text-align: center;}
+
+.centered {
+    text-align: center;
+    align-content: center;
+    justify-content: center;}
+
+.test{
+    align-items: center;
+    background-color:rgb(0,100,255);
+    color:white;
+    text-decoration: none;
+    margin:15px;}
+
+.test a{text-decoration: none;
+color: white;
+font-weight: 600;}
+
+.test h2{font-size: 30pt;}
+
+.test h3{font-size: 15pt;
         align-content: center;
-        text-align: center;
-        text-indent:0em;}
+        margin: 0 auto;
+        padding: 10px;}
 
-    .border.row{border-style:none !important;}
+.nome{font-size:12pt;
+    font-weight: bold;}
 
-    .centered {
-        margin: 0 auto !important;
-        float: none !important;
-        text-align: center;
-        align-content: center;}
+.cargo{font-size:10pt;
+    font-weight: bolder;}
 
-    .test{margin: 0 auto;
-        align-items: center;
-        background-color:rgb(0,100,255);
-        color:white;
-        text-decoration: none;
-        margin:15px;}
-    
-    .test a{text-decoration: none;
-    color: white;
-    font-weight: 600;}
-
-    .test h2{font-size: 30pt;}
-
-    .test h3{font-size: 15pt;
-            align-content: center;
-            margin: 0 auto;
-            padding: 10px;}
-
-    .nome{font-size:12pt;
-        font-weight: bold;}
-
-    .cargo{font-size:10pt;
-        font-weight: bolder;}
-
-    .vespace{background-color: white;
-        height: 5px;
-            padding: 2px;
-            margin: 2px;}
-
- .contact{margin: 0 auto;
-        align-items: center;}
-
-.contact p{text-indent:0em;
-text-align: center;}
-
-.primeiro{background-color: antiquewhite;}
-
-.segundo{background-color: bisque;}
-
-.pessoa{background-color: antiquewhite;}
+.vespace{background-color: white;
+    height: 5px;
+        padding: 2px;
+        margin: 2px;}
 
 .pessoa ul li a img{padding:5%;}
 
@@ -256,6 +262,14 @@ text-align: center;}
     text-indent:45pt;
     list-style-type: none;
     list-style-type: '-';
+}
+
+#contato{
+    text-align: center;
+}
+
+#contato address p{
+    text-align: center;
 }
 
 #box-toggle {
@@ -378,4 +392,21 @@ text-align: center;}
     height: 30px;
     width: 100%;
     background-color: white;
+}
+
+.espaco{
+    padding-top: 20px;
+}
+
+.fundoazulescuro{
+    background-color:rgb(104,168,222);
+}
+
+.fundoazulescuro p{
+    color:white;
+}
+
+.fundoazulescuro a{
+    font-weight: bold;
+    text-decoration: underline;
 }

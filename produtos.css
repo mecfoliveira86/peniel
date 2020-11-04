@@ -1,0 +1,13 @@
+.productImage{
+    width: 80vw;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.productImage img{
+    width: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}

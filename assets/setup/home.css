@@ -1,0 +1,99 @@
+#home{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    height: 85vh;
+}
+
+#home h1{
+    font-size: 2rem;
+    padding: 0;
+}
+
+#home p{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.logoStart{
+    display: block;
+    position: relative;
+    width: 50vw;
+    height: 10vh;
+}
+
+#home img{
+    width: 25vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainSlider{
+    position: static;
+    display: block;
+    width: 50vw;
+    margin-top: 25vh;
+}
+
+#slider{
+    position: relative;
+    display: block;
+
+    width: 30vw;
+    height: 40vh;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 40px;
+    box-shadow:2px 2px 10px grey;
+    background-color: rgba(30,144,255,0.5);
+}
+
+#slider img{
+    position: absolute;
+    display: block;
+    width: 25vw;
+    opacity: 0;
+    border-radius: 20px;
+    margin-top: 3vh;
+    margin-left: 2.5vw;
+    z-index: 10;
+}
+
+#slider img.selected{
+    width: 25vw;
+    z-index: 20;
+    opacity: 1;
+    margin-left: 2.5vw;
+    box-shadow:2px 2px 5px rgba(0,0,0,0.4);
+    transition: opacity 1500ms ease-out;
+}
+
+#textSlider{
+    height: 10vh;
+}
+
+#textSlider a{
+    text-decoration: none;
+    color: black;
+}
+
+#textSlider p{
+    position: relative;
+    width: 25vw;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    opacity: 0;
+    font-size: 0rem;
+}
+
+#textSlider p.selected{
+    z-index: 20;
+    opacity: 1;
+    font-size: 1rem;
+    transition: opacity 1500ms ease-out;
+}

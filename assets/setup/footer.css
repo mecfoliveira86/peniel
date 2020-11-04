@@ -1,0 +1,80 @@
+footer h3{
+    text-align: center;
+}
+
+footer p, footer a{
+    font-size: 1.25rem;;
+}
+
+.footerArea{
+    background-color: rgb(6, 8, 107);
+    color: white;
+    display:flex;
+    padding: 2vh 0;
+}
+
+.companyData{
+    width: 33vw;
+    text-align: center;
+}
+
+.companyData img{
+    width: 25vw;
+}
+
+.companyData h4{
+    font-size: 2rem;
+}
+
+.centralFooter{
+    border: 1px solid white;
+    border-top: none;
+    border-bottom: none;
+    width: 33vw;
+    text-align: center;
+}
+
+.serviceOption{
+    display: block;
+    width: 33vw;
+    text-align: center;
+    padding: 2vh 0;
+}
+
+.footerArea a{
+    text-decoration: none;
+    color: white;
+}
+
+.socialMedia{
+    display: block;
+    width: 34vw;
+    margin-left: 2vw;
+}
+
+.socialMediaOption{
+    width: 30vw;
+    margin-right: 1vw;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    padding: 2vh 0;
+    font-size: 0.8rem;
+}
+
+.socialMediaOption a i {
+    margin-right: 0.5vw;
+    font-size: 2rem;
+}
+
+.observations{
+    width: 100vw;
+    display: block;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.observations a{
+    font-size: 0.8rem;
+    text-decoration: none;
+    color:black;
+}

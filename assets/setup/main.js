@@ -1,11 +1,13 @@
 let time = 5000,
     currentImageIndex = 0,
     imagens = document.querySelectorAll("#slider img"),
+    textos = document.querySelectorAll("#textSlider p"),
     max = imagens.length;
 
 function nextImage(){
     
     imagens[currentImageIndex].classList.remove("selected");
+    textos[currentImageIndex].classList.remove("selected");
 
     currentImageIndex++;
     
@@ -14,6 +16,8 @@ function nextImage(){
     }
 
     imagens[currentImageIndex].classList.add("selected");
+    textos[currentImageIndex].classList.add("selected");
+    
 }
 
 function start(){

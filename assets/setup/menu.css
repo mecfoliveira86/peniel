@@ -1,0 +1,156 @@
+nav{
+    position: relative;
+    width: 100vw;
+    height: 10vh;
+    background-color: dodgerblue;
+}
+
+.socialMediaMenu{
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 5vh;
+    background-color: rgb(6, 8, 107);
+}
+
+.optionSection{
+    display: flex;
+    max-width: 50vw;
+    margin-left: 50vw;
+}
+
+.socialOption{
+    margin-top: 1vh;
+    width: 10vw;
+    height: 3vh;
+    margin-right: 2vw;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.socialOption:hover{
+    background-color: white;
+    color:black;
+}
+
+.socialOption i{
+    font-size: 1.5em;
+}
+
+.socialOption a{
+    text-decoration: none;
+    color:white;
+}
+
+.socialOption:hover{
+    background-color: rgba(255,255,255,0.3);
+    color:black;
+}
+
+.mainMenu{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    display: table;
+}
+
+.navbar{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul{
+    align-self: center;
+    list-style: none;
+    margin:0;
+    margin:0 auto;
+    display: flex;
+    height: 9vh;
+}
+
+.navbar li{
+    margin-right: 1vw;
+}
+
+.option a{
+    position: relative;
+    width:12vw;
+    height: 9vh;
+    text-align: center;
+    display: inline-block;
+    padding: 1.5em;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.option a:hover {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    transition: 500ms;
+    font-weight: bolder;
+}
+
+.option a:hover::after{
+    content:'';
+    width: 7vw;
+    height: 1px;
+    background: currentColor;
+    display: block;
+    margin: 0 auto;
+    transition: 25ms;
+}
+
+.logo{
+    background-color: rgb(255,255,255);
+    height: 9vh;
+    border-radius: 5px;
+    justify-content: center;
+    padding:0 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+
+.logo a{
+    text-decoration: none;
+    color:black;
+}
+
+.logo a img{
+    width: 6vw;
+    justify-content: center;
+}
+
+.logo a p{
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 0.5vh;
+}
+
+.warning{
+    justify-content: flex-end;
+    background-color: rgba(255,180,0,0.9);
+    border-radius: 5px;
+}
+
+.warning:hover{
+    background-color: rgba(255,240,0,0.9);
+    transition: 500ms;
+}
+
+.warning a:hover{
+    background: transparent;
+    border-radius: 0;
+    color:black;
+    transition: 500ms;
+}

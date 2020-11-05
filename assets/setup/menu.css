@@ -119,6 +119,11 @@ label[for="bt_menu"]{
 
 @media(max-width:800px){
 
+    .optionSection{
+        width: 40vw;
+        margin-left: 30vw;
+    }
+
     .socialText{
         visibility: hidden;
     }
@@ -128,7 +133,6 @@ label[for="bt_menu"]{
         margin-right: 5vw;
         margin-top: 0.5vh;
         font-size: 0.8rem;
-        margin-left: 30vw;
     }
 
     .menu{ 

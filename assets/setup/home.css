@@ -126,5 +126,20 @@
         width: 50vw;
     }
 
+    #slider{
+        width: 90vw;
+        margin-left: 5vw;
+        height: 50vh;
+    }
+
+    #slider img.selected{
+        width: 80vw;
+        margin-left: 5vw;
+        margin-top:15vw;
+    }
+
+    #textSlider p{
+        width: 90vw;
+    }
 
 }

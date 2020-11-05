@@ -127,7 +127,7 @@
     }
 
     .mainSlider{
-        margin-top: 25vh;
+        margin-top: 15vh;
     }
 
     #slider{
@@ -139,6 +139,7 @@
     #slider img.selected{
         width: 80vw;
         margin-left: 5vw;
+        margin-top: 5vh;
     }
 
     #textSlider p.selected{

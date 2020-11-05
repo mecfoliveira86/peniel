@@ -139,13 +139,12 @@
     #slider img.selected{
         width: 80vw;
         margin-left: 5vw;
+        margin-top: 1.5vh;
     }
 
     #textSlider p.selected{
-        margin-top: 1vh;
+        margin-top: 0.5vh;
         width: 80vw;
     }
-
-    
 
 }

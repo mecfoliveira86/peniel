@@ -16,18 +16,18 @@
     font-weight: 700;
 }
 
-.logoStart{
-    display: block;
-    position: relative;
-    width: 50vw;
-    height: 10vh;
-}
-
 #home img{
     width: 25vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.logoStart{
+    display: block;
+    position: relative;
+    width: 50vw;
+    height: 10vh;
 }
 
 .mainSlider{
@@ -96,4 +96,35 @@
     opacity: 1;
     font-size: 1rem;
     transition: opacity 1500ms ease-out;
+}
+
+@media(max-width:800px){
+
+    #home{
+        width: 100vw;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #home img{
+        width: 50vw;
+    }
+    
+    #home h1{
+        font-size: 1.5rem;
+    }
+
+    #home h2{
+        font-size: 1rem;
+    }
+
+    .logoStart{
+        width: 100vw;
+    }
+
+    .logoStart img{
+        width: 50vw;
+    }
+
+
 }

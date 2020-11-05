@@ -126,20 +126,26 @@
         width: 50vw;
     }
 
+    .mainSlider{
+        margin-top: 15vh;
+    }
+
     #slider{
         width: 90vw;
         margin-left: 5vw;
-        height: 50vh;
+        height: 40vh;
     }
 
     #slider img.selected{
         width: 80vw;
         margin-left: 5vw;
-        margin-top:15vw;
     }
 
-    #textSlider p{
-        width: 90vw;
+    #textSlider p.selected{
+        margin-top: 5vh;
+        width: 80vw;
     }
+
+    
 
 }
